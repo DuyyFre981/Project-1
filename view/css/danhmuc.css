@@ -1,0 +1,32 @@
+.frmcontent{
+    padding: 20px 0;
+}
+.frmdsloai table{
+    width: 100%!important;
+    border-collapse: collapse;
+}
+
+.frmdsloai table th:nth-child(1){
+    width: 10%;
+    padding: 15px;
+    background-color: tomato;
+}
+.frmdsloai table th:nth-child(2){
+    width: 30%;
+    background-color: salmon;
+}
+.frmdsloai table th:nth-child(3){
+    width: 35%;
+    background-color: rgb(172, 107, 22);
+}
+.frmdsloai table th:nth-child(4){
+    background-color: blueviolet;
+    width: 10%;
+}
+.frmdsloai table td{
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+}
+.frmdsloai table td:first-child,td:last-child{
+    text-align: center;
+}
